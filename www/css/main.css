@@ -1475,6 +1475,9 @@ or wrap each row of columns in a <div class="row"> */
 	color: #ffffff;
 }
 
+h3 {
+	text-align:center;
+}
 
 h3 a {
 	color: #ffffff;

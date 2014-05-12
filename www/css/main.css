@@ -1,9 +1,9 @@
 /* ==========================================================================
    Table of Contents
-   ========================================================================== 
-   
+   ==========================================================================
+
 	00. Reset Defaults
-	01. Main Theme Colours   
+	01. Main Theme Colours
 	02. Logo
 	03. Header Container
 	04. Typography
@@ -12,25 +12,25 @@
 	07. Slider
 	08. Footer
 	09. Lip Ups
-	10. Insert Author's custom styles 
+	10. Insert Author's custom styles
 	11. Media Queries 1140px
 	12. Media Queries 768px
 	13. Media Queries 480px
 	14. Media Queries 320px
 	15. Helper classes
 	16. Fonts
-	17. Print Styles 
-   
-   
+	17. Print Styles
+
+
    ========================================================================== */
-   
-   
- 
- 
+
+
+
+
 
 /* ==========================================================================
    00. Reset Defaults
-   ========================================================================== */ 
+   ========================================================================== */
 
 html, button, input, select, textarea { color: #222; }
 body { font-size: 1em; line-height: 1.4; }
@@ -51,7 +51,7 @@ body {font: 16px/26px 'RobotoLight';}
 
 /* Header Container Text */
 .header-container {
-  
+
 	background: url('../img/bg_1.jpg') #333333 no-repeat center center fixed;
 	/* border:thin red solid; */
 
@@ -108,7 +108,7 @@ ul.social-link a{
 .footer-container footer h1{
 	color: #fff;
 }
-	
+
 
 
 /* ==========================================================================
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6{
 	font-style: normal;
 	font-weight: normal;
 	line-height: 115%;
-}   
+}
 h2{
 	font-family: 'ralewaymedium';
 	font-weight: normal;
@@ -234,7 +234,7 @@ em{
 .stores{
 	margin: 0;
 	padding: 0;
-}   
+}
 .stores li{
 	list-style-type: none;
 	display: inline-block;
@@ -272,7 +272,7 @@ em{
 .full{
 	width: 100%;
 	float: none;
-} 
+}
 .half{
 	width: 48%;
 	margin-right: 4%;
@@ -332,12 +332,12 @@ em{
 .stack.right{
 	clear: right;
 	float: right;
-}   
+}
 .main-container article{
 	margin-bottom: 3em;
 }
 .quote-container{
-	position: relative;	
+	position: relative;
 }
 .quote-container .wrapper{
 	padding-bottom: 60px;
@@ -348,7 +348,7 @@ em{
 /* ==========================================================================
    07. Slider
    ========================================================================== */
-   
+
 .fader{
 	position: absolute;
 	height: 724px;
@@ -392,31 +392,31 @@ em{
 	bottom: -15px;
 }
 .flex-control-paging li a {
-	width: 13px; 
-	height: 13px; 
-	display: block; 
+	width: 13px;
+	height: 13px;
+	display: block;
 	background: #485762; /* Change colour of iphone nav dots */
-	cursor: pointer; 
-	text-indent: -9999px; 
+	cursor: pointer;
+	text-indent: -9999px;
 	border-radius: 20px;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	-ms-transition: all 300ms ease-in-out;
 	-o-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out; 
+	transition: all 300ms ease-in-out;
 }
-.fader .flex-control-paging li a:hover { 
+.fader .flex-control-paging li a:hover {
 	background: #5a6c79; /* Change colour of iphone nav dots on hover */
 }
-.fader .flex-control-paging li a.flex-active, .quote .flex-control-paging li a.flex-active { 
+.fader .flex-control-paging li a.flex-active, .quote .flex-control-paging li a.flex-active {
 	background: #4f81bd; /* Change colour of iphone nav dots when active */
 	cursor: default;
 }
 .fader .slides li img{
 	width: 100%;
 }
-.main { 
-	padding: 40px 0 50px; 
+.main {
+	padding: 40px 0 50px;
 }
 .main-container .main{
 	min-height: 400px;
@@ -448,10 +448,10 @@ cite{
 	padding-bottom: .5em;
 	width: 244px;
 }
-.quote .flex-control-paging li a:hover { 
+.quote .flex-control-paging li a:hover {
 	background: #5a6c79; /* Change colour of iphone nav dots on hover */
 }
-.quote .flex-control-paging li a.flex-active { 
+.quote .flex-control-paging li a.flex-active {
 	cursor: default;
 }
 
@@ -459,8 +459,8 @@ cite{
 
 
 /* ==========================================================================
-   08. FOOTER 
-   ========================================================================== */ 
+   08. FOOTER
+   ========================================================================== */
 .footer-container {
     padding-bottom: 100px;
     padding-top: 40px;
@@ -472,7 +472,7 @@ cite{
 	border-top: 1px solid #4e5a60;
 	margin-top: 3em;
 	margin-bottom: 3em;
-}   
+}
 .footer-container ul{
 	padding: 0;
 	margin: 0;
@@ -499,8 +499,8 @@ cite{
 	font-weight: normal;
 	margin-bottom: 1em;
 }
-.footer-container footer { 
-	padding: 20px 0; 
+.footer-container footer {
+	padding: 20px 0;
 }
 ul.social-link li:before{
 	display: none;
@@ -510,7 +510,7 @@ ul.social-link{
 	margin-bottom: 2.5em;
 }
 ul.social-link li{
-	display: inline;	
+	display: inline;
 	padding: 0;
 	margin: 0 .1em;
 }
@@ -552,7 +552,7 @@ ul.social-link a{
 /* ==========================================================================
    09. Lip Ups
    ========================================================================== */
-   
+
 .lipup{
 	width: 100px;
 	height: 35px;
@@ -604,11 +604,11 @@ ul.social-link a{
 /* ==========================================================================
    12. Media Queries 768
    ========================================================================== */
-   
-@media only screen and (max-width: 768px) { 
+
+@media only screen and (max-width: 768px) {
 	.wrapper{
 		width: 480px;
-		margin: 0 auto; 
+		margin: 0 auto;
 	}
 	.header-container .wrapper{
 		padding-top: 50px;
@@ -647,8 +647,8 @@ padding-top: 1.3em;
 	.wrapper{
 		max-width: 320px;
 		width: 100%;
-		margin: 0 auto; 
-	} 
+		margin: 0 auto;
+	}
 	.fourth{
 		width: 100%;
 		text-align: center;
@@ -702,9 +702,9 @@ padding-top: 1.3em;
 @media only screen and (max-width: 320px) {
 	.wrapper{
 		width: 94%;
-		margin: 0 auto; 
+		margin: 0 auto;
 		max-width: none;
-	} 
+	}
 	.fourth{
 		width: 100%;
 		text-align: center;
@@ -715,7 +715,7 @@ padding-top: 1.3em;
 		margin: 0;
 		border-bottom: 1px solid #ebebeb;
 	}
-	
+
 }
 
 
@@ -917,156 +917,156 @@ h2, h3 { page-break-after: avoid; }
     margin-right: 10px;
 }
 
-.row { 
-	margin-bottom: 20px; 
+.row {
+	margin-bottom: 20px;
 }
 
 /* Nested Column Classes */
 
 .column.alpha,
-.columns.alpha { 
-	margin-left: 0; 
+.columns.alpha {
+	margin-left: 0;
 }
 
 .column.omega,
-.columns.omega { 
-	margin-right: 0; 
+.columns.omega {
+	margin-right: 0;
 }
 
 /* Base Grid */
 
 .container .one.column,
-.container .one.columns { 
+.container .one.columns {
 	width: 40px; }
 
-.container .two.columns { 
-	width: 100px; 
+.container .two.columns {
+	width: 100px;
 }
 
-.container .three.columns { 
-	width: 160px; 
+.container .three.columns {
+	width: 160px;
 }
 
-.container .four.columns { 
-	width: 220px; 
+.container .four.columns {
+	width: 220px;
 }
 
-.container .five.columns { 
-	width: 280px; 
+.container .five.columns {
+	width: 280px;
 }
 
-.container .six.columns { 
-	width: 340px; 
+.container .six.columns {
+	width: 340px;
 }
 
-.container .seven.columns { 
-	width: 400px; 
+.container .seven.columns {
+	width: 400px;
 }
 
-.container .eight.columns { 
-	width: 460px; 
+.container .eight.columns {
+	width: 460px;
 }
 
-.container .nine.columns { 
-	width: 520px; 
+.container .nine.columns {
+	width: 520px;
 }
 
-.container .ten.columns { 
-	width: 580px; 
+.container .ten.columns {
+	width: 580px;
 }
 
-.container .eleven.columns { 
-	width: 640px; 
+.container .eleven.columns {
+	width: 640px;
 }
 
-.container .twelve.columns { 
-	width: 700px; 
+.container .twelve.columns {
+	width: 700px;
 }
 
-.container .thirteen.columns { 
-	width: 760px; 
+.container .thirteen.columns {
+	width: 760px;
 }
 
-.container .fourteen.columns { 
-	width: 820px; 
+.container .fourteen.columns {
+	width: 820px;
 }
 
-.container .fifteen.columns { 
-	width: 880px; 
+.container .fifteen.columns {
+	width: 880px;
 }
 
-.container .sixteen.columns { 
-	width: 940px; 
+.container .sixteen.columns {
+	width: 940px;
 }
 
-.container .one-third.column { 
-	width: 300px; 
+.container .one-third.column {
+	width: 300px;
 }
 
-.container .two-thirds.column { 
-	width: 620px; 
+.container .two-thirds.column {
+	width: 620px;
 }
 
 /* Offsets */
 
-.container .offset-by-one { 
-	padding-left: 60px; 
+.container .offset-by-one {
+	padding-left: 60px;
 }
 
-.container .offset-by-two { 
-	padding-left: 120px; 
+.container .offset-by-two {
+	padding-left: 120px;
 }
 
-.container .offset-by-three { 
-	padding-left: 180px; 
+.container .offset-by-three {
+	padding-left: 180px;
 }
 
-.container .offset-by-four { 
-	padding-left: 240px; 
+.container .offset-by-four {
+	padding-left: 240px;
 }
 
-.container .offset-by-five { 
-	padding-left: 300px; 
+.container .offset-by-five {
+	padding-left: 300px;
 }
 
-.container .offset-by-six { 
-	padding-left: 360px; 
+.container .offset-by-six {
+	padding-left: 360px;
 }
 
-.container .offset-by-seven { 
-	padding-left: 420px; 
+.container .offset-by-seven {
+	padding-left: 420px;
 }
 
-.container .offset-by-eight { 
-	padding-left: 480px; 
+.container .offset-by-eight {
+	padding-left: 480px;
 }
 
-.container .offset-by-nine { 
-	padding-left: 540px; 
+.container .offset-by-nine {
+	padding-left: 540px;
 }
 
-.container .offset-by-ten { 
-	padding-left: 600px; 
+.container .offset-by-ten {
+	padding-left: 600px;
 }
 
-.container .offset-by-eleven { 
-	padding-left: 660px; 
+.container .offset-by-eleven {
+	padding-left: 660px;
 }
 
-.container .offset-by-twelve { 
-	padding-left: 720px; 
+.container .offset-by-twelve {
+	padding-left: 720px;
 }
 
-.container .offset-by-thirteen { 
-	padding-left: 780px; 
+.container .offset-by-thirteen {
+	padding-left: 780px;
 }
 
-.container .offset-by-fourteen { 
-	padding-left: 840px; 
+.container .offset-by-fourteen {
+	padding-left: 840px;
 }
 
 .container .offset-by-fifteen {
-	padding-left: 900px; 
+	padding-left: 900px;
 }
 
 /* Tablet (Portrait)
@@ -1075,167 +1075,167 @@ h2, h3 { page-break-after: avoid; }
 /* Note: Design for a width of 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    
-    .container { 
-    	width: 768px 
+
+    .container {
+    	width: 768px
     }
-    
+
     .container .column,
     .container .columns {
         margin-left: 10px;
         margin-right: 10px;
     }
-    
+
     .column.alpha,
     .columns.alpha {
         margin-left: 0;
         margin-right: 10px;
     }
-    
+
     .column.omega,
     .columns.omega {
         margin-right: 0;
         margin-left: 10px;
     }
-    
+
     .alpha.omega {
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     .container .one.column,
-    .container .one.columns { 
-    	width: 28px; 
+    .container .one.columns {
+    	width: 28px;
     }
-    
-    .container .two.columns { 
-    	width: 76px; 
+
+    .container .two.columns {
+    	width: 76px;
     }
-    
-    .container .three.columns { 
+
+    .container .three.columns {
     	width: 124px;
     }
-    
-    .container .four.columns { 
-    	width: 172px; 
+
+    .container .four.columns {
+    	width: 172px;
     }
-    
-    .container .five.columns { 
+
+    .container .five.columns {
     	width: 220px;
     }
-    
-    .container .six.columns { 
-    	width: 268px; 
+
+    .container .six.columns {
+    	width: 268px;
     }
-    
-    .container .seven.columns { 
-    	width: 316px; 
+
+    .container .seven.columns {
+    	width: 316px;
     }
-    
-    .container .eight.columns { 
-    	width: 364px; 
+
+    .container .eight.columns {
+    	width: 364px;
     }
-    
-    .container .nine.columns { 
-    	width: 412px; 
+
+    .container .nine.columns {
+    	width: 412px;
     }
-    
-    .container .ten.columns { 
-    	width: 460px; 
+
+    .container .ten.columns {
+    	width: 460px;
     }
-    
-    .container .eleven.columns { 
-    	width: 508px; 
+
+    .container .eleven.columns {
+    	width: 508px;
     }
-    
-    .container .twelve.columns { 
-    	width: 556px; 
+
+    .container .twelve.columns {
+    	width: 556px;
     }
-    
-    .container .thirteen.columns { 
-    	width: 604px; 
+
+    .container .thirteen.columns {
+    	width: 604px;
     }
-    
-    .container .fourteen.columns { 
-    	width: 652px; 
+
+    .container .fourteen.columns {
+    	width: 652px;
     }
-    
-    .container .fifteen.columns { 
-    	width: 700px; 
+
+    .container .fifteen.columns {
+    	width: 700px;
     }
-    
-    .container .sixteen.columns { 
-    	width: 748px; 
+
+    .container .sixteen.columns {
+    	width: 748px;
     }
-    
-    .container .one-third.column { 
-    	width: 236px; 
+
+    .container .one-third.column {
+    	width: 236px;
     }
-    
-    .container .two-thirds.column { 
-    	width: 492px; 
+
+    .container .two-thirds.column {
+    	width: 492px;
     }
-    
+
     /* Offsets */
-    
-    .container .offset-by-one { 
-    	padding-left: 48px; 
+
+    .container .offset-by-one {
+    	padding-left: 48px;
     }
-    
-    .container .offset-by-two { 
-    	padding-left: 96px; 
+
+    .container .offset-by-two {
+    	padding-left: 96px;
     }
-    
-    .container .offset-by-three { 
-    	padding-left: 144px; 
+
+    .container .offset-by-three {
+    	padding-left: 144px;
     }
-    
-    .container .offset-by-four { 
-    	padding-left: 192px; 
+
+    .container .offset-by-four {
+    	padding-left: 192px;
     }
-    
-    .container .offset-by-five { 
-    	padding-left: 240px; 
+
+    .container .offset-by-five {
+    	padding-left: 240px;
     }
-    
-    .container .offset-by-six { 
-    	padding-left: 288px; 
+
+    .container .offset-by-six {
+    	padding-left: 288px;
     }
-    
-    .container .offset-by-seven { 
-    	padding-left: 336px; 
+
+    .container .offset-by-seven {
+    	padding-left: 336px;
     }
-    
-    .container .offset-by-eight { 
-    	padding-left: 384px; 
+
+    .container .offset-by-eight {
+    	padding-left: 384px;
     }
-    
-    .container .offset-by-nine { 
-    	padding-left: 432px; 
+
+    .container .offset-by-nine {
+    	padding-left: 432px;
     }
-    
-    .container .offset-by-ten { 
-    	padding-left: 480px; 
+
+    .container .offset-by-ten {
+    	padding-left: 480px;
     }
-    
-    .container .offset-by-eleven { 
-    	padding-left: 528px; 
+
+    .container .offset-by-eleven {
+    	padding-left: 528px;
     }
-    
-    .container .offset-by-twelve { 
-    	padding-left: 576px; 
+
+    .container .offset-by-twelve {
+    	padding-left: 576px;
     }
-    
-    .container .offset-by-thirteen { 
-    	padding-left: 624px; 
+
+    .container .offset-by-thirteen {
+    	padding-left: 624px;
     }
-    
-    .container .offset-by-fourteen { 
-    	padding-left: 672px; 
+
+    .container .offset-by-fourteen {
+    	padding-left: 672px;
     }
-    
-    .container .offset-by-fifteen { 
-    	padding-left: 720px; 
+
+    .container .offset-by-fifteen {
+    	padding-left: 720px;
     }
 
 }
@@ -1252,14 +1252,14 @@ h2, h3 { page-break-after: avoid; }
 /* Note: Design for a width of 320px */
 
 @media only screen and (max-width: 767px) {
-    
-    .container { 
-    	width: 260px; 
+
+    .container {
+    	width: 260px;
     }
-    
+
     .container .columns,
-    .container .column { 
-   		margin: 0; 
+    .container .column {
+   		margin: 0;
    	}
 
     .container .one.column,
@@ -1280,8 +1280,8 @@ h2, h3 { page-break-after: avoid; }
     .container .fifteen.columns,
     .container .sixteen.columns,
     .container .one-third.column,
-    .container .two-thirds.column  { 
-    	width: 260px; 
+    .container .two-thirds.column  {
+    	width: 260px;
     }
 
     /* Offsets */
@@ -1299,7 +1299,7 @@ h2, h3 { page-break-after: avoid; }
     .container .offset-by-twelve,
     .container .offset-by-thirteen,
     .container .offset-by-fourteen,
-    .container .offset-by-fifteen { 
+    .container .offset-by-fifteen {
     	padding-left: 0;
     }
 
@@ -1311,14 +1311,14 @@ h2, h3 { page-break-after: avoid; }
 /* Note: Design for a width of 480px */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    
-    .container { 
-    	width: 300px; 
+
+    .container {
+    	width: 300px;
     }
-    
+
     .container .columns,
-    .container .column { 
-    	margin: 0; 
+    .container .column {
+    	margin: 0;
     }
 
     .container .one.column,
@@ -1339,13 +1339,13 @@ h2, h3 { page-break-after: avoid; }
     .container .fifteen.columns,
     .container .sixteen.columns,
     .container .one-third.column,
-    .container .two-thirds.column { 
-    	width: 300px; 
+    .container .two-thirds.column {
+    	width: 300px;
     }
-    
+
     #header-navigation{
     	margin-top: 0px;
-    	
+
     }
 
 }
@@ -1355,11 +1355,11 @@ h2, h3 { page-break-after: avoid; }
 
 /* Self Clearing Goodness */
 
-.container:after { 
-	content: "\0020"; 
-	display: block; 
-	height: 0; 
-	clear: both; 
+.container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
 	visibility: hidden;
 }
 
@@ -1375,17 +1375,17 @@ or wrap each row of columns in a <div class="row"> */
   	overflow: hidden;
   	visibility: hidden;
   	width: 0;
-  	height: 0; 
+  	height: 0;
 }
 
 .row:after,
 .clearfix:after {
-  	clear: both; 
+  	clear: both;
 }
 
 .row,
 .clearfix {
-  	zoom: 1; 
+  	zoom: 1;
 }
 
 /* You can also use a <br class="clear" /> to clear columns */
@@ -1415,49 +1415,54 @@ or wrap each row of columns in a <div class="row"> */
 	width: 100%;
 	height: 100%;
 	padding-bottom: 50px;
-	
+
 }
 
-.flat-circle{	
+.flat-circle{
 	width:100%;
 	height:100%;
 
 	-webkit-border-radius: 160px;
 	-moz-border-radius:160px;
 	border-radius: 160px;
-	
+
 	/*
 -moz-box-shadow: 0 0 10px #333,inset 0 0 8px rgba(0, 0, 0, 0.45);
 	-webkit-box-shadow: 0 0 10px #333,inset 0 0 8px rgba(0, 0, 0, 0.45);
 	box-shadow: 0 0 10px #333,inset 0 0 8px rgba(0, 0, 0, 0.45);
 */
-	
+
 	overflow:hidden;
 	margin-bottom:10px;
 	margin: 0 auto;
 	text-align: center;
-	
-		
+
+
 }
 
-.purple{ 
-	background: #7656a3; 
+.purple{
+	background: #7656a3;
 }
 
-.black{ 
-	background: #000000; 
+.black{
+	background: #000000;
 }
 
-.grey{ 
-	background: #111111; 
+.grey{
+	background: #111111;
 }
 
 
-.black h2, .grey h2{ 
+.black h2, .grey h2{
 	font-family: 'ralewaylight';
 	font-weight: normal;
 	font-size: 1.2em;
-	color: #FFFFFF; 
+	color: #FFFFFF;
 }
 
+/* 3 - Extras
+================================================== */
 
+.footer-container a {
+	color: #ffffff;
+}
